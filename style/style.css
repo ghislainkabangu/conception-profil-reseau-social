@@ -1,0 +1,61 @@
+body{
+   background-color: rgb(43, 172, 204);
+}
+section{
+    margin: auto;
+    margin-top: 80px;
+    width: 400px;
+    display: flex;
+   flex-wrap: wrap;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.first_bloc,.user,.Links{
+    flex-basis: 100%;
+    margin: 0px;
+}
+.first_bloc{
+    height:200px;
+    background-color: rgb(169, 233, 249);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.user,.Links{
+    background-color: white;
+    text-align: center;
+}
+.user img{
+    border: 10px solid white;
+    position: relative;
+    bottom: 50px;
+    border-radius: 50%;
+}
+.user h2{
+    position: relative;
+    bottom: 50px;
+}
+.user p{
+    position: relative;
+    bottom: 50px;
+}
+.user{
+    border-bottom: 1px solid gainsboro;
+}
+.Links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.Links a{
+    color: rgb(169, 233, 249);
+    text-decoration: none;
+}
+.Links a:hover{
+    color: rgb(43, 172, 204);
+    transition: 0.5s;
+}
+.Links div{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
